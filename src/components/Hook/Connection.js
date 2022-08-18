@@ -1,5 +1,13 @@
 import React from "react";
 import { Card, Button, Form, Input, Row, Col } from "antd";
+import {
+  BsAlignCenter,
+  BsPlayFill,
+  BsFillDoorClosedFill,
+} from "react-icons/bs";
+import { MdCancel } from "react-icons/md";
+import { Center } from "@mantine/core";
+import { TbSubtask } from "react-icons/tb";
 
 const Connection = ({ connect, disconnect, connectBtn }) => {
   const [form] = Form.useForm();
@@ -55,7 +63,15 @@ const Connection = ({ connect, disconnect, connectBtn }) => {
           </Form.Item>
         </Col>
         <Col span={8}>
-          <Form.Item label="Porta" name="port">
+          <Form.Item
+            label={
+              <>
+                Porta
+                <BsFillDoorClosedFill color="#78a52d" size={20} />
+              </>
+            }
+            name="port"
+          >
             <Input />
           </Form.Item>
         </Col>
@@ -77,20 +93,35 @@ const Connection = ({ connect, disconnect, connectBtn }) => {
       </Row>
     </Form>
   );
-
   return (
     <Card
-      title="Conexão MQTT"
+      title="Conexão MQTT 🔗"
       actions={[
         <Button
           type="primary"
-          style={{ backgroundColor: "#78a52d", border: "none" }}
+          style={{
+            backgroundColor: "#78a52d",
+            border: "none",
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "2px",
+          }}
           onClick={handleConnect}
         >
+          <BsPlayFill size={21} />
           {connectBtn}
         </Button>,
-        <Button danger onClick={handleDisconnect}>
+        <Button
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "2px",
+          }}
+          danger
+          onClick={handleDisconnect}
+        >
           Disconectar
+          <MdCancel />
         </Button>,
       ]}
     >

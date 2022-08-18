@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Card, Form, Input, Row, Col, Button, Select } from "antd";
 import { QosOption } from "./index";
+import { MdOutlineSubdirectoryArrowRight } from "react-icons/md";
 
 const Subscriber = ({ sub, unSub, showUnsub }) => {
   const [form] = Form.useForm();
@@ -46,10 +47,13 @@ const Subscriber = ({ sub, unSub, showUnsub }) => {
                 marginLeft: "10px",
                 background: "#78a52d",
                 border: "none",
+                display: "flex",
+                alignItems: "self-end",
               }}
               type="primary"
               htmlType="submit"
             >
+              <MdOutlineSubdirectoryArrowRight size={25} />
               Subscribe
             </Button>
             {showUnsub ? (
