@@ -1,6 +1,6 @@
 # TCC3i3
 
-<title>Arduino IDE</title<
+<title>Arduino IDE</title>
 
 
 <h2>Linguagens Usadas<h2>
