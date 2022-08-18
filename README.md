@@ -57,6 +57,7 @@
       - Manage Library
          - Search for "PubSubClient" then Install
 <br>
+
 # Installing the REACT Project
 
 
@@ -82,3 +83,7 @@
     <img src="https://skillicons.dev/icons?i=vscode,arduino,react,nodejs,css,js,git" />
   </a>
 </p>
+   
+   <h3>For More Information about it, you can hit me up on my social medias!</h3>
+
+[![](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/4ktmiguer/)
