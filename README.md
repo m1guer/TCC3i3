@@ -57,10 +57,28 @@
       - Manage Library
          - Search for "PubSubClient" then Install
 <br>
+# Installing the REACT Project
+
+
+1. On CMD or TERMINAL run
+   ```
+   git clone https://github.com/Migeurfi/TCC3i3.git
+   cd TCC3i3
+   ```
+2.2 Install Npm Packages
+   * requires [nodejs](https://nodejs.org/en/)
+   ```
+   npm install 
+   ```
+2.2 start project:
+   ```
+   npm start
+   ```
+     
 <br>
-<h2>Linguagens Usadas<h2>
-<p align="center">
+<h2>Code On<h2>
+<p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cp,react,nodejs,css,js,git" />
+    <img src="https://skillicons.dev/icons?i=vscode,arduino,react,nodejs,css,js,git" />
   </a>
 </p>
