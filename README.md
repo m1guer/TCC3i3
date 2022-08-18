@@ -1,6 +1,9 @@
 # TCC3i3
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Setup ESP8266;Requisitos)](https://git.io/typing-svg)
+<p align="center">
+<a href="https://git.io/typing-svg">
+<img src="https://readme-typing-svg.herokuapp.com/?lines=Setup ESP8266;Requisitos"/>
+</a>
+</
 
 
 <h2>Linguagens Usadas<h2>
