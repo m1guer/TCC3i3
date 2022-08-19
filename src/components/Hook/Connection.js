@@ -6,7 +6,7 @@ import {
   BsFillDoorClosedFill,
 } from "react-icons/bs";
 import { MdCancel } from "react-icons/md";
-import { GiPlantWatering } from "react-icons/gi";
+import { GiPlantWatering, GiThreeLeaves } from "react-icons/gi";
 
 const Connection = ({ connect, disconnect, connectBtn }) => {
   const [form] = Form.useForm();
@@ -56,6 +56,7 @@ const Connection = ({ connect, disconnect, connectBtn }) => {
       onFinish={onFinish}
     >
       <Row gutter={20}>
+        <GiThreeLeaves color="#78a52d" size={75} />
         <Col span={8}>
           <Form.Item label="Host" name="host">
             <Input />
@@ -124,7 +125,7 @@ const Connection = ({ connect, disconnect, connectBtn }) => {
           danger
           onClick={handleDisconnect}
         >
-          Disconectar
+          Desconectar
           <MdCancel />
         </Button>,
       ]}
