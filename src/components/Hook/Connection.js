@@ -6,8 +6,7 @@ import {
   BsFillDoorClosedFill,
 } from "react-icons/bs";
 import { MdCancel } from "react-icons/md";
-import { Center } from "@mantine/core";
-import { TbSubtask } from "react-icons/tb";
+import { GiPlantWatering } from "react-icons/gi";
 
 const Connection = ({ connect, disconnect, connectBtn }) => {
   const [form] = Form.useForm();
@@ -95,7 +94,12 @@ const Connection = ({ connect, disconnect, connectBtn }) => {
   );
   return (
     <Card
-      title="Conexão MQTT 🔗"
+      title={
+        <div style={{ fontSize: "25px", gap: "2px" }}>
+          Conexão MQTT
+          <GiPlantWatering size={30} color="#78a52d" />
+        </div>
+      }
       actions={[
         <Button
           type="primary"

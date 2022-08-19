@@ -16,7 +16,8 @@
     "react-bootstrap": "^2.5.0",
     "react-dom": "^16.13.1",
     "react-icons": "^4.4.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "victory": "^36.6.2"
   },
   "scripts": {
     "start": "react-scripts start",
