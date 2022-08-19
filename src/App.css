@@ -28,3 +28,7 @@
 .ant-form-inline .ant-form-item {
   margin-bottom: 20px;
   background: #d9f7be;}
+
+.threeleaves {
+  justify-content: end;
+}

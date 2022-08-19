@@ -19,10 +19,10 @@ const Receiver = ({ payload }) => {
   return (
     <Card
       title={
-        <div style={{ fontSize: "25px", gap: "2px" }}>
+        <>
           Humidade
-          <MdWaterDrop color="#78a52d" size="20px" />
-        </div>
+          <MdWaterDrop color="#78a52d" />
+        </>
       }
     >
       <List

@@ -4,10 +4,12 @@ import {
   BsAlignCenter,
   BsPlayFill,
   BsFillDoorClosedFill,
+  BsFillKeyFill,
 } from "react-icons/bs";
+import { AiOutlineKey } from "react-icons/ai";
 import { MdCancel } from "react-icons/md";
 import { GiPlantWatering, GiThreeLeaves } from "react-icons/gi";
-
+import { HiOutlineUserCircle } from "react-icons/hi";
 const Connection = ({ connect, disconnect, connectBtn }) => {
   const [form] = Form.useForm();
   const record = {
@@ -56,7 +58,6 @@ const Connection = ({ connect, disconnect, connectBtn }) => {
       onFinish={onFinish}
     >
       <Row gutter={20}>
-        <GiThreeLeaves color="#78a52d" size={75} />
         <Col span={8}>
           <Form.Item label="Host" name="host">
             <Input />
@@ -81,12 +82,31 @@ const Connection = ({ connect, disconnect, connectBtn }) => {
           </Form.Item>
         </Col>
         <Col span={8}>
-          <Form.Item label="Nome de Usuario" name="username">
+          <Form.Item
+            label={
+              <>
+                Nome de usuario
+                <HiOutlineUserCircle size="25px " color="#78a52d" />
+              </>
+            }
+            name="username"
+          >
             <Input />
           </Form.Item>
         </Col>
         <Col span={8}>
-          <Form.Item label="Senha" name="password">
+          <Form.Item
+            label={
+              <>
+                <>
+                  Senha
+                  <br></br>
+                  <BsFillKeyFill size="25px" color="#78a52d" gap={"2px"} />
+                </>
+              </>
+            }
+            name="password"
+          >
             <Input />
           </Form.Item>
         </Col>
@@ -96,9 +116,16 @@ const Connection = ({ connect, disconnect, connectBtn }) => {
   return (
     <Card
       title={
-        <div style={{ fontSize: "25px", gap: "2px" }}>
+        <div
+          style={{
+            fontSize: "25px",
+            gap: "2px",
+            //display: "flex",
+            //alignItems: "right",
+          }}
+        >
           Conexão MQTT
-          <GiPlantWatering size={30} color="#78a52d" />
+          <GiThreeLeaves color="#78a52d" size={75} justifyContent="left" />
         </div>
       }
       actions={[
