@@ -1,5 +1,10 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&pause=1000&color=F70000&width=435&lines=TCC+3i3)](https://git.io/typing-svg)
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/Migeurfi/TCC3i3/blob/master/public/Logotipo%20empresa%20de%20programa%C3%A7%C3%A3o%20sistemas%20e%20tecnologia%20(1).png">
+</p
+
 <br>
+
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=0FA400&width=435&lines=Setup+Mosquitto)](https://git.io/typing-svg)<img src="https://user-images.githubusercontent.com/91486755/185505116-05f9f700-7c20-40f0-b513-2895385133fd.png" width="35"   alt="deploy" align="left">
 
 1. Setting up Mosquitto
