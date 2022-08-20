@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/Migeurfi/TCC3i3/blob/master/public/Logotipo%20empresa%20de%20programa%C3%A7%C3%A3o%20sistemas%20e%20tecnologia%20(1).png">
+    <img width="50%" src="https://github.com/Migeurfi/TCC3i3/blob/master/public/DEVMIGUER.png">
 </p
 
 <br>
