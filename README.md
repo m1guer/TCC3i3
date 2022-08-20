@@ -55,6 +55,8 @@
 <img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/07/Install-ESP8266-Board-add-on-in-Arduino-IDE-open-boards-manager.png?w=671&quality=100&strip=all&ssl=1">
 4. Search for ESP8266 and press install button for the “ESP8266 by ESP8266 Community“
 <img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/07/Install-ESP8266-Board-add-on-in-Arduino-IDE-search-ESP8266.png?w=786&quality=100&strip=all&ssl=1">
+
+
 # PubSubClient Library
 
 1. Go to Skectch
