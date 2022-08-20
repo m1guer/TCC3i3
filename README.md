@@ -73,7 +73,7 @@
    git clone https://github.com/Migeurfi/TCC3i3.git
    cd TCC3i3
    ```
-2.2 Install Npm Packages
+2.1 Install Npm Packages
    * requires [nodejs](https://nodejs.org/en/)
    ```
    npm install 
