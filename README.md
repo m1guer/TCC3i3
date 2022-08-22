@@ -46,7 +46,7 @@
     ```
     - save as *.conf
     
-# starting Mosquitto broker
+# Starting Mosquitto broker
   - In mosquitto default folder:
     - left click, Open Terminal Here // to windows users: shift + left click, Open power shell here
      - run the command
