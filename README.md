@@ -23,8 +23,9 @@
 * Windows users :computer:
   - Just Install the .exe
 3. Creating a configuration file .conf
-* For Linux Users
-  - go to mosquitto default installation(YOUUSER/etc/mosquitto)
+  - replace the * with the name you want on the config file
+* For Linux Users:
+  - go to mosquitto default installation(YOURUSER/etc/mosquitto)
   - on mosquitto default run terminal commands
   ```
   nano *.conf
@@ -35,11 +36,23 @@
   listener 9001
   alow_anonymous = true
   ```
-  - CTRL + O to overwrite
-    - now run 
+*  For Windows Users:
+    - go to mosquitto default instalation folder(c:\mosquitto\)
+    - create a new *.txt
     ```
-    mosquitto -v -c *.conf
+    listener 1883
+    listener 9001
+    alow_anonymous = true
     ```
+    - save as *.conf
+    
+# starting Mosquitto broker
+  - In mosquitto default folder:
+    - left click, Open Terminal Here // to windows users: shift + left click, Open power shell here
+     - run the command
+        ```
+        ./mosquitto -v -c *.conf
+        ```
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=A513F7&width=435&lines=ARDUINO+IDE)](https://git.io/typing-svg)
 1. Install Arduino IDE
    * [ARDUINO IDE Windows](https://downloads.arduino.cc/arduino-1.8.19-windows.exe)
