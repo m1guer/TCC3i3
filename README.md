@@ -75,7 +75,7 @@
 1. Go to Skectch
    * Library
       - Manage Library
-         - Search for "PubSubClient" then Install
+         - Search for "PubSubClient" then click Install
 <br>
 
 # Installing the REACT Project
