@@ -34,7 +34,7 @@
   ```
   listener 1883
   listener 9001
-  alow_anonymous = true
+  allow_anonymous true
   ```
 *  For Windows Users:
     - go to mosquitto default instalation folder(c:\mosquitto\)
@@ -42,7 +42,7 @@
     ```
     listener 1883
     listener 9001
-    alow_anonymous = true
+    allow_anonymous true
     ```
     - save as *.conf
     
