@@ -14,10 +14,10 @@
 #define D10   1
   
 //defines
-#define SSID_REDE     "Wifi-V" 
-#define SENHA_REDE    "12151804v" 
-#define INTERVALO_ENVIO_THINGSPEAK  30000 
-#define INTERVALO_ENVIO_MQTT        10000  
+#define SSID_REDE     "*" 
+#define SENHA_REDE    "*" 
+#define INTERVALO_ENVIO_THINGSPEAK  1000 
+#define INTERVALO_ENVIO_MQTT        1000 
 #define LIMITE_UMIDADE_PARA_REGAR   30    
 #define TEMPO_PARA_REGAR            2000   
 #define SAIDA_COMANDO_VALVULA       D0     
@@ -25,13 +25,13 @@
 #define TOPICO_SUBSCRIBE "AquaInsights_Send"    
 #define TOPICO_PUBLISH   "AquaInsights_Recive"   
                                                  
-#define ID_MQTT  "planta_regg"     
+#define ID_MQTT  "*"     
 void initWiFi(void);   
 
-const char* BROKER_MQTT = "192.168.0.102"; 
+const char* BROKER_MQTT = "*"; 
 int BROKER_PORT = 1883;                      
 char EnderecoAPIThingSpeak[] = "api.thingspeak.com";
-String ChaveEscritaThingSpeak = "5372SFD56DLEKMDJ";       
+String ChaveEscritaThingSpeak = "*";       
 long lastConnectionTime; 
 long lastMQTTSendTime;
 WiFiClient client;
@@ -153,6 +153,7 @@ float FazLeituraUmidade(void)
 {
     int ValorADC;
     float UmidadePercentual;
+    int UmidadePercentualApp;
    
      ValorADC = analogRead(0);  
      Serial.print("[Leitura ADC] ");
@@ -173,11 +174,11 @@ float FazLeituraUmidade(void)
      //      UmidadePercentual = 100 * ((418-ValorADC) / 418)  
         
      UmidadePercentual = 100 * ((418-(float)ValorADC) / 418);
+     UmidadePercentualApp = map(UmidadePercentual, -144, 100, 0, 100);
      Serial.print("[Umidade Percentual] ");
-     Serial.print(UmidadePercentual);
+     Serial.print(UmidadePercentualApp);
      Serial.println("%");
-   
-     return UmidadePercentual;
+     return UmidadePercentualApp;
 }
 void setup()
 {  
