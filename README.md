@@ -1,8 +1,5 @@
-<p align="center" width="100%">
-    <img width="50%" src="https://github.com/Migeurfi/TCC3i3/blob/master/public/DEVMIGUER.png">
-</p
 
-<br>
+
 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=0FA400&width=435&lines=Setup+Mosquitto)](https://git.io/typing-svg)<img src="https://user-images.githubusercontent.com/91486755/185505116-05f9f700-7c20-40f0-b513-2895385133fd.png" width="35"   alt="deploy" align="left">
